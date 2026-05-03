@@ -1,0 +1,89 @@
+{
+  "@context": {
+    "@version": 1.1,
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "schema": "https://schema.org/",
+    "williams": "https://www.williams.com/vocab#",
+    "energy": "https://energy.gov/vocab#",
+
+    "Pipeline": "williams:Pipeline",
+    "NominationRequest": "williams:NominationRequest",
+    "ShippingContract": "williams:ShippingContract",
+    "GasTransportation": "williams:GasTransportation",
+    "CompressorStation": "williams:CompressorStation",
+    "StorageFacility": "williams:StorageFacility",
+    "GatheringSystem": "williams:GatheringSystem",
+    "ProcessingPlant": "williams:ProcessingPlant",
+
+    "pipelineName": {
+      "@id": "williams:pipelineName",
+      "@type": "xsd:string"
+    },
+    "pipelineLength": {
+      "@id": "williams:pipelineLength",
+      "@type": "xsd:decimal"
+    },
+    "capacity": {
+      "@id": "williams:capacity",
+      "@type": "xsd:decimal"
+    },
+    "capacityUnit": {
+      "@id": "williams:capacityUnit",
+      "@type": "xsd:string"
+    },
+    "nominationQuantity": {
+      "@id": "williams:nominationQuantity",
+      "@type": "xsd:decimal"
+    },
+    "nominationPeriod": {
+      "@id": "williams:nominationPeriod",
+      "@type": "xsd:string"
+    },
+    "injectionPoint": {
+      "@id": "williams:injectionPoint",
+      "@type": "xsd:string"
+    },
+    "withdrawalPoint": {
+      "@id": "williams:withdrawalPoint",
+      "@type": "xsd:string"
+    },
+    "shipper": {
+      "@id": "williams:shipper",
+      "@type": "@id"
+    },
+    "contractNumber": {
+      "@id": "williams:contractNumber",
+      "@type": "xsd:string"
+    },
+    "measurementUnit": {
+      "@id": "williams:measurementUnit",
+      "@type": "xsd:string"
+    },
+    "dekatherms": {
+      "@id": "williams:dekatherms",
+      "@type": "xsd:decimal"
+    },
+    "pressurePSI": {
+      "@id": "williams:pressurePSI",
+      "@type": "xsd:decimal"
+    },
+    "compressorStations": {
+      "@id": "williams:compressorStations",
+      "@type": "xsd:integer"
+    },
+    "ferc": {
+      "@id": "energy:ferc",
+      "@type": "@id"
+    },
+    "regulatoryDocket": {
+      "@id": "williams:regulatoryDocket",
+      "@type": "xsd:string"
+    },
+    "Organization": "schema:Organization",
+    "name": "schema:name",
+    "description": "schema:description",
+    "url": "schema:url",
+    "address": "schema:address",
+    "telephone": "schema:telephone"
+  }
+}

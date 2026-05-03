@@ -1,0 +1,212 @@
+vocabulary:
+  name: Williams Companies Vocabulary
+  description: >-
+    Domain vocabulary for Williams Companies natural gas pipeline infrastructure,
+    covering pipeline operations, gas nominations, transportation contracts,
+    FERC regulatory terms, and midstream energy services.
+  version: '1.0'
+  created: '2026-05-03'
+  modified: '2026-05-03'
+  tags:
+    - Energy
+    - Natural Gas
+    - Pipeline
+    - Midstream
+    - Nominations
+    - FERC
+    - Infrastructure
+
+terms:
+  - term: Transco
+    definition: >-
+      Transcontinental Gas Pipe Line Company, LLC — the nation's largest-volume
+      natural gas pipeline system, operated by Williams, spanning 10,000 miles
+      from south Texas to New York City.
+    category: Pipeline System
+    tags:
+      - Pipeline
+      - Transco
+      - Infrastructure
+
+  - term: Nomination
+    definition: >-
+      A shipper's formal request submitted to a pipeline to transport a specific
+      quantity of natural gas between defined receipt and delivery points during
+      a given scheduling period.
+    category: Operations
+    tags:
+      - Nominations
+      - Operations
+      - Scheduling
+
+  - term: Dekatherm (Dth)
+    definition: >-
+      The standard unit of energy measurement used in natural gas transactions,
+      equal to 10 therms or approximately 1,000 cubic feet of natural gas.
+    category: Measurement
+    tags:
+      - Measurement
+      - Units
+      - Energy
+
+  - term: EBB (Electronic Bulletin Board)
+    definition: >-
+      A FERC-mandated online portal that interstate natural gas pipelines must
+      maintain to post capacity availability, tariff information, and enable
+      customers to submit nominations and capacity transactions.
+    category: Regulatory
+    tags:
+      - FERC
+      - Regulatory
+      - Portal
+
+  - term: 1Line
+    definition: >-
+      Williams' proprietary online portal and electronic bulletin board platform
+      used by Transco customers to submit nominations, manage contracts, and
+      access pipeline information.
+    category: Platform
+    tags:
+      - Portal
+      - Platform
+      - Transco
+
+  - term: Flat File
+    definition: >-
+      A standardized data file format (CSV or fixed-width) used for bulk
+      submission of nominations and capacity transactions to Williams pipeline
+      systems, as an alternative to EDI or online screen entry.
+    category: Integration
+    tags:
+      - Integration
+      - EDI
+      - Data
+
+  - term: EDI (Electronic Data Interchange)
+    definition: >-
+      The structured electronic exchange of business documents between pipeline
+      operators and shippers, used for nomination submission, capacity release,
+      and confirmation in compliance with FERC regulations and NAESB standards.
+    category: Integration
+    tags:
+      - EDI
+      - Integration
+      - NAESB
+
+  - term: FERC
+    definition: >-
+      The Federal Energy Regulatory Commission — the U.S. federal agency that
+      regulates interstate transmission of natural gas, electricity, and oil,
+      establishing tariff requirements and operational standards for pipelines
+      like Transco and Northwest Pipeline.
+    category: Regulatory
+    tags:
+      - FERC
+      - Regulatory
+      - Government
+
+  - term: NAESB
+    definition: >-
+      North American Energy Standards Board — the industry organization that
+      develops data exchange standards (including EDI and flat file formats)
+      used for natural gas and electricity business processes.
+    category: Standards
+    tags:
+      - NAESB
+      - Standards
+      - EDI
+
+  - term: Receipt Point
+    definition: >-
+      A location on a natural gas pipeline where gas is physically received
+      from a shipper, producer, or another pipeline, also known as an
+      injection point.
+    category: Operations
+    tags:
+      - Operations
+      - Infrastructure
+
+  - term: Delivery Point
+    definition: >-
+      A location on a natural gas pipeline where gas is delivered to a
+      shipper, customer, or connecting pipeline, also known as a withdrawal
+      point.
+    category: Operations
+    tags:
+      - Operations
+      - Infrastructure
+
+  - term: Firm Transportation
+    definition: >-
+      A type of pipeline transportation service that provides guaranteed
+      capacity for gas delivery, with the pipeline obligated to transport
+      the contracted quantities regardless of system conditions.
+    category: Services
+    tags:
+      - Transportation
+      - Services
+      - Contracts
+
+  - term: Interruptible Transportation
+    definition: >-
+      A type of pipeline transportation service that can be curtailed by
+      the pipeline when system capacity is needed for firm service customers.
+    category: Services
+    tags:
+      - Transportation
+      - Services
+      - Contracts
+
+  - term: Northwest Pipeline
+    definition: >-
+      An interstate natural gas pipeline operated by Williams serving the
+      Pacific Northwest and parts of the western United States, with its
+      own EBB portal and nomination system.
+    category: Pipeline System
+    tags:
+      - Pipeline
+      - Northwest
+      - Infrastructure
+
+  - term: MountainWest Pipeline
+    definition: >-
+      An interstate natural gas pipeline operated by Williams serving Utah,
+      Wyoming, and Colorado, integrated with Williams' pipeline network and
+      EBB portal systems.
+    category: Pipeline System
+    tags:
+      - Pipeline
+      - Mountain West
+      - Infrastructure
+
+  - term: Midstream
+    definition: >-
+      The segment of the oil and gas industry that encompasses processing,
+      storage, transportation, and marketing of natural gas and petroleum
+      between upstream production and downstream distribution/end use.
+    category: Industry
+    tags:
+      - Midstream
+      - Energy
+      - Industry
+
+  - term: Compressor Station
+    definition: >-
+      A facility along a natural gas pipeline that uses gas-driven or
+      electric compressors to maintain pipeline pressure and ensure
+      adequate gas flow across long distances.
+    category: Infrastructure
+    tags:
+      - Infrastructure
+      - Operations
+
+  - term: Peak Design Capacity
+    definition: >-
+      The maximum volume of natural gas a pipeline system can transport
+      per day under peak demand conditions, measured in dekatherms per day
+      (Dth/d). Transco's system peak design capacity is 19.5 million Dth/d.
+    category: Capacity
+    tags:
+      - Capacity
+      - Operations
+      - Infrastructure
