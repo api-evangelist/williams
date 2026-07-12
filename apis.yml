@@ -68,6 +68,8 @@ apis:
       - type: Portal
         url: https://www.1line.williams.com/NWP/index.html
 common:
+  - type: DomainSecurity
+    url: security/williams-domain-security.yml
   - type: Website
     url: https://www.williams.com
   - type: Portal
@@ -94,6 +96,8 @@ common:
     url: https://raw.githubusercontent.com/api-evangelist/williams/refs/heads/main/json-ld/williams-context.jsonld
   - type: Vocabulary
     url: https://raw.githubusercontent.com/api-evangelist/williams/refs/heads/main/vocabulary/williams-vocabulary.yml
+  - url: https://www.williams.com/feed/
+    type: Blog
 maintainers:
   - FN: Kin Lane
     email: kin@apievangelist.com
