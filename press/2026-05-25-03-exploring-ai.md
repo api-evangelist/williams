@@ -1,7 +1,9 @@
 ---
 title: Exploring AI
 url: https://www.williams.edu/ai/
-date: '2026-05-25'
+published: ''
+date_basis: harvested
+harvested: '2026-05-25'
 query: '"Williams" press release artificial intelligence'
 position: 3
 source: serpapi-google

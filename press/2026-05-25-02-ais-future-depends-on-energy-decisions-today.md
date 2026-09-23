@@ -1,7 +1,9 @@
 ---
 title: AI's future depends on energy decisions today
 url: https://www.williams.com/2026/02/12/ais-future-depends-on-energy-decisions-today/
-date: '2026-05-25'
+published: '2026-02-12'
+date_basis: url-derived
+harvested: '2026-05-25'
 query: '"Williams" press release artificial intelligence'
 position: 2
 source: serpapi-google
