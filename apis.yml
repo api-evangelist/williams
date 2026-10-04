@@ -41,6 +41,7 @@ tags:
 - Fortune 500
 - Midstream
 - Utilities
+- Oil and Gas
 tags_raw:
 - Energy
 - Natural Gas
@@ -49,6 +50,7 @@ tags_raw:
 - Fortune 500
 - Midstream
 - Utilities
+- Oil and Gas
 created: '2026-05-03'
 modified: '2026-05-03'
 url: https://raw.githubusercontent.com/api-evangelist/williams/refs/heads/main/apis.yml
