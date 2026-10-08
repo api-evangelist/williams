@@ -104,6 +104,12 @@ apis:
   - type: Portal
     url: https://www.1line.williams.com/NWP/index.html
 common:
+- type: Plans
+  url: plans/williams-plans-pricing.yml
+- type: RateLimits
+  url: rate-limits/williams-rate-limits.yml
+- type: FinOps
+  url: finops/williams-finops.yml
 - type: DomainSecurity
   url: security/williams-domain-security.yml
 - type: Website
